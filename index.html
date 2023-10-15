@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8>
+        <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Adarsh- Personal portfolio page.
+    </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family:"Poppins",sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.3rem;
+        }
+
+        .left {
+
+            font-size: 1.5 rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+            margin: 120px 0;
+
+        }
+
+        .firstsection>div {
+            /*< iske wajah se jo first div use hi properties milengi.*/
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+
+
+        }
+
+        .rightsection img {
+            width: 400px;
+            height: 400px;
+
+
+        }
+
+        .purple {
+            color: rgb(181, 145, 214);
+        }
+
+        #element {
+            color: rgb(181, 145, 214);
+
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 100px;
+            width: 150px;
+            font-size: 1.4rem;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 110px;
+            color: gray;
+            width: 150px;
+        }
+        footer{
+            background-color: #0e0e1a;
+            
+        }
+        .footer{
+            display: flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer> div{
+            width:223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+           
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Adarsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects and Internships</a></li>
+                    <li><a href="/">Social Accounts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Adarsh</span>
+                <div> and I am a C.S. Undergrad and a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="ap2.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What have I done so far.</span>
+            <h1>Education and Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Secondary School Certificate - P.G. Vora High School
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my secondary school certificate with 72.63%.
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Higher Secondary school - Thakur College of Science and Commerce
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my Higher Secondary school certificate with 60.92%.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Bachelor of Engineering in Computer Science - SPPU(Pune university)
+                    </div>
+                    <div class="vertical-desc">
+                        Currently pursuing in Computer Science Engineering with an aggregate of 7.87 cgpa.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Office Administrator at Republic Pharma.<br>
+                        <h5><i>Duration:- 6 months.</i></h5>
+                    </div>
+                    <div class="vertical-desc">
+                        Was Employed as an Office Administrator at Republic Pharma for 6 months. Acquired skills like
+                        communication and management skills.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Intern App Developer at Infy DigiWorld.
+                        <h5><i>Duration:- 6 months.</i></h5>
+                    </div>
+                    <div class="vertical-desc">
+                        Served as an Intern App Developer for 6 months.Developed a dating app named Flames. Acquired
+                        skills like Flutterflow, Flutter, Figma, Canva and got to know more about Development Life
+                        Cycle.
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+
+
+    </main>
+
+<footer>
+    <div class="footer">
+        <div class="footerfirst">
+            Adarsh's Portfolio
+        </div>
+        <div class="footersecond">
+            <ul>
+                <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects and Internships</a></li>
+                    <li><a href="/">Social Accounts</a></li>
+            </ul>
+        </div>
+        <div class="footerthird">
+            <ul>
+                <li><a href="https://github.com/adarsh-71">Github :- adarsh-71</a></li>
+                <li><a href="https://www.linkedin.com/in/adarsh-rajesh-pandey">Linkedin :- Adarsh Pandey</a></li>
+            </ul>
+        </div>
+      
+    </div>
+    <div class="footer-rights">
+        Copyright &#169; adarshsportfolio.com | All rights reserved
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Learner', 'Problem Solver', 'Analytical Thinker', 'Optimist'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
